@@ -1,4 +1,47 @@
 html {
   background: #f2f1f4;
   color: #19171c;
+
+}
+
+.accordion  {
+  border-color: black;
+  border-style: double;
+  margin-left: 100px;
+  width: 400px;
+  margin: auto;
+}
+
+h1  {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.title{
+  width: 380px;
+  height: 30px;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.zebra:nth-child(odd) {
+  background-color: #dcd380;
+}
+
+.zebra:nth-child(even) {
+  background-color: #6cbd6c;
+}
+
+.description  {
+  display:none;
+}
+
+.active {
+  display: block;
+}
+
+.active + .description{
+  display: block;
+  background-color: #f2f1f4;
+  padding-left: 10px;
 }
